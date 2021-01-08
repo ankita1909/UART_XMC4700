@@ -1,0 +1,207 @@
+Dependencies for Project 'uart_printf_xmc48', Target 'uart_printf_xmc48': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\main.c)(0x5FF858FB)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (..\serial.h)(0x5CC86B72)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_uart.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_usic.h)(0x5D418170)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_gpio.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5D286BF8)
+I (..\ring_buffer.h)(0x5CC7E8FC)
+F (..\retarget_io.c)(0x5CCB11E2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\retarget_io.o --omf_browse .\objects\retarget_io.crf --depend .\objects\retarget_io.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (..\serial.h)(0x5CC86B72)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_uart.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_usic.h)(0x5D418170)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_gpio.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5D286BF8)
+I (..\ring_buffer.h)(0x5CC7E8FC)
+F (..\ring_buffer.c)(0x5CCB04FA)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\ring_buffer.o --omf_browse .\objects\ring_buffer.crf --depend .\objects\ring_buffer.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (..\ring_buffer.h)(0x5CC7E8FC)
+F (..\serial.c)(0x5FF8917A)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (..\serial.h)(0x5CC86B72)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_uart.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_usic.h)(0x5D418170)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_gpio.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5D286BF8)
+I (..\ring_buffer.h)(0x5CC7E8FC)
+F (..\Readme.txt)(0x5CCB140C)()
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c)(0x584E7E1E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\retarget_io_1.o --omf_browse .\objects\retarget_io_1.crf --depend .\objects\retarget_io_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x5EC7CA5C)
+I (.\RTE\_uart_printf_xmc48\RTE_Components.h)(0x5FF844C1)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc4_gpio.c)(0x5D286C00)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc4_gpio.o --omf_browse .\objects\xmc4_gpio.crf --depend .\objects\xmc4_gpio.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_gpio.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5D286BF8)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc4_scu.c)(0x5D286C00)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc4_scu.o --omf_browse .\objects\xmc4_scu.crf --depend .\objects\xmc4_scu.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_scu.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_scu.h)(0x5D286BF8)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc_common.c)(0x5D286C00)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc_gpio.c)(0x5D286C00)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_gpio.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5D286BF8)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc_uart.c)(0x5D4182B2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_scu.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_scu.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_uart.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_usic.h)(0x5D418170)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5D286BF8)
+F (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\src\xmc_usic.c)(0x5D418334)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_usic.h)(0x5D418170)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_common.h)(0x5D286C2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC7CA56)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_device.h)(0x5D3BF384)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5D286BF8)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc_scu.h)(0x5D286BF6)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc\xmc4_scu.h)(0x5D286BF8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+F (RTE\Device\XMC4800-F144x2048\startup_XMC4800.s)(0x57875DF6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "XMC4800_F144x2048 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_xmc4800.lst --xref -o .\objects\startup_xmc4800.o --depend .\objects\startup_xmc4800.d)
+F (RTE\Device\XMC4800-F144x2048\system_XMC4800.c)(0x5A6A0D1A)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_uart_printf_xmc48-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include-IC:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMClib\inc-D__UVISION_VERSION="531" -D_RTE_ -DXMC4800_F144x2048 -D_RTE_ -DXMC_ASSERT_ENABLE -DXMC_USER_ASSERT_FUNCTION-o .\objects\system_xmc4800.o --omf_browse .\objects\system_xmc4800.crf --depend .\objects\system_xmc4800.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\XMC4800.h)(0x59477AEE)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\KumariAnkita\AppData\Local\Arm\Packs\Infineon\XMC4000_DFP\2.13.0\Device\XMC4800_series\Include\system_XMC4800.h)(0x578756B4)

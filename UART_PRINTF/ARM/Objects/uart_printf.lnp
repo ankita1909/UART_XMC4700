@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\retarget_io.o"
+".\objects\ring_buffer.o"
+".\objects\serial.o"
+".\objects\retarget_io_1.o"
+".\objects\xmc4_gpio.o"
+".\objects\xmc4_scu.o"
+".\objects\xmc_common.o"
+".\objects\xmc_gpio.o"
+".\objects\xmc_uart.o"
+".\objects\xmc_usic.o"
+".\objects\startup_xmc4800.o"
+".\objects\system_xmc4800.o"
+--strict --scatter ".\Objects\uart_printf.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uart_printf.map" -o .\Objects\uart_printf.axf
